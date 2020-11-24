@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "QuickMemoConverter": {
+      "commandName": "Project",
+      "workingDirectory": "C:\\Users\\james\\source\\repos\\QuickMemoConverter"
+    }
+  }
+}

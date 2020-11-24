@@ -1,0 +1,16 @@
+C:\Users\james\source\repos\QuickMemoConverter\obj\Debug\net5.0\QuickMemoConverter.csprojAssemblyReference.cache
+C:\Users\james\source\repos\QuickMemoConverter\obj\Debug\net5.0\QuickMemoConverter.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\james\source\repos\QuickMemoConverter\obj\Debug\net5.0\QuickMemoConverter.AssemblyInfoInputs.cache
+C:\Users\james\source\repos\QuickMemoConverter\obj\Debug\net5.0\QuickMemoConverter.AssemblyInfo.cs
+C:\Users\james\source\repos\QuickMemoConverter\obj\Debug\net5.0\QuickMemoConverter.csproj.CoreCompileInputs.cache
+C:\Users\james\source\repos\QuickMemoConverter\bin\Debug\net5.0\QuickMemoConverter.exe
+C:\Users\james\source\repos\QuickMemoConverter\bin\Debug\net5.0\QuickMemoConverter.deps.json
+C:\Users\james\source\repos\QuickMemoConverter\bin\Debug\net5.0\QuickMemoConverter.runtimeconfig.json
+C:\Users\james\source\repos\QuickMemoConverter\bin\Debug\net5.0\QuickMemoConverter.runtimeconfig.dev.json
+C:\Users\james\source\repos\QuickMemoConverter\bin\Debug\net5.0\QuickMemoConverter.dll
+C:\Users\james\source\repos\QuickMemoConverter\bin\Debug\net5.0\ref\QuickMemoConverter.dll
+C:\Users\james\source\repos\QuickMemoConverter\bin\Debug\net5.0\QuickMemoConverter.pdb
+C:\Users\james\source\repos\QuickMemoConverter\obj\Debug\net5.0\QuickMemoConverter.dll
+C:\Users\james\source\repos\QuickMemoConverter\obj\Debug\net5.0\ref\QuickMemoConverter.dll
+C:\Users\james\source\repos\QuickMemoConverter\obj\Debug\net5.0\QuickMemoConverter.pdb
+C:\Users\james\source\repos\QuickMemoConverter\obj\Debug\net5.0\QuickMemoConverter.genruntimeconfig.cache
