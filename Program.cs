@@ -8,37 +8,25 @@ namespace QuickMemoConverter
     {
         static void Main(string[] args)
         {
-            string memofile = @"C:\temp\memoinfo.jlqm";
+            // var memoDirectory = @"I:\test\";
+            var memoDirectory = @"I:\test\QuickMemo+_201123_203959(4)";
+            
+            var fileHandler = new FileHandler();
 
-            if(File.Exists(memofile))
-            {
+            var fileParser = new FileParser();
 
-                string note = File.ReadAllText(memofile);
+            var memo = fileParser.ParseDirectoryToMemo(memoDirectory);
 
-                using (JsonDocument document = JsonDocument.Parse(note))
-                {
-                    JsonElement root = document.RootElement;
+            Console.WriteLine(memo.Category);
 
-                    JsonElement memoCategory = root.GetProperty("Category");
-                    memoCategory.TryGetProperty("CategoryName",out JsonElement categoryElement);
+            // var files = fileHandler.LqmToZip(memoDirectory);
 
-                    Console.WriteLine(categoryElement.ToString());
+            // var unzippedFolders =  fileHandler.UnzipMemos(files);
 
-                    JsonElement memoContentList = root.GetProperty("MemoObjectList");
-
-                    foreach (var memoContent in memoContentList.EnumerateArray())
-                    {
-                        if (memoContent.TryGetProperty("DescRaw",out JsonElement contentElement);)
-                    }
-
-                    
-                    
-
-                    Console.WriteLine(contentElement.ToString());
-                }
-
-                // Console.WriteLine(note);
-            }
+            // foreach(var f in unzippedFolders)
+            // {
+            //     Console.WriteLine(f);
+            // }
         }
     }
 }
